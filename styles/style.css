@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+@media (min-width: 400px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 22px;
+  }
+}
+
+header {
+  height: 5rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  margin: 1rem 2rem 0 2rem;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  color: #38004f;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Baloo 2", cursive;
+  font-size: 1.5rem;
+}
+.container-main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 4rem 0rem 0rem;
+  width: 100%;
+  height: 30rem;
+  background-image: url(../assets/code.jpg);
+  background-size: auto 40rem;
+}
+.site-title {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  margin: 0rem 2rem 0 2rem;
+  padding: 1rem;
+  color: #222;
+  text-align: center;
+  font-style: oblique;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: white;
+  font-size: 3rem;
+}
+
+.site-subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 0rem 0 4rem;
+  height: 3rem;
+  color: #f0d9f9;
+  font-size: 2em;
+  font-family: "Baloo 2", cursive;
+  background-color: #38004f;
+}
+
+.img-portfolio {
+  height: 180px;
+  width: 180px;
+}
